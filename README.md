@@ -41,22 +41,28 @@ curl -X POST -F "file=@/path/to/your/file.csv" http://127.0.0.1:8000/upload/
 Replace /path/to/your/file.csv with the path to your CSV file.
 
 ## Runnung the project locally
-1. Create a python virtual environement
+1. Clone the repository:
+```bash
+git clone https://github.com/deepakchacko2700/CSV-Upload-API.git
+
+cd <your-project-directory>
+```
+2. Create a python virtual environement
 ```python
 python -m venv <virtualenv name>
 ```
-2. Install packages and dependencies
+3. Install packages and dependencies
 ```python
 pip install -r requirements.txt
 ```
 
-3. Apply migrations to create the necessary database tables:
+4. Apply migrations to create the necessary database tables:
 ```python
 python manage.py migrate
 ```
-4. Run the Django development server:
+5. Run the Django development server:
 ```python
 python manage.py runserver
 ```
-5. Your API will now be available at http://127.0.0.1:8000/. You can use tools like Postman or cURL to upload CSV files to the /api/upload/ endpoint.
+6. Your API will now be available at http://127.0.0.1:8000/. You can use tools like Postman or cURL to upload CSV files to the /api/upload/ endpoint.
 
