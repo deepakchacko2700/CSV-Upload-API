@@ -1,0 +1,7 @@
+{
+    "saved_records_count": 999,
+    "rejected_records_count": 1,
+    "errors": [
+        "Error in row: ['John Frank', 'dhernandez@example.com', '31']: {'email': [ErrorDetail(string='user with this email already exists.', code='unique')]}"
+    ]
+}
