@@ -45,7 +45,7 @@ Replace /path/to/your/file.csv with the path to your CSV file.
 ```bash
 git clone https://github.com/deepakchacko2700/CSV-Upload-API.git
 
-cd TestProject
+cd CSV-Upload-API
 ```
 2. Create a python virtual environement
 ```python
